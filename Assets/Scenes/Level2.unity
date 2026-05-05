@@ -25063,7 +25063,7 @@ MonoBehaviour:
   - {fileID: 1185194032}
   - {fileID: 1652686436}
   - {fileID: 57223161}
-  enemiesPerWave: 4
+  enemiesPerWave: 5
   waves: 4
   timeBetweenSpawns: 0.7
   timeBetweenWaves: 5

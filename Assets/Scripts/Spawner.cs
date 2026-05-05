@@ -10,14 +10,15 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(Spawn());
+        StartCoroutine(Spawn(GameManager.Instance.fromWave));
     }
 
-    private IEnumerator Spawn()
+    private IEnumerator Spawn(int fromWave)
     {
-        for (int i = 0; i < waves; i++)
+        for (int i = fromWave; i < waves; i++)
         {
             GameManager.Instance.UpdateWavesText(i + 1);
+            GameManager.Instance.fromWave = i;
             for (int j = 0; j < enemiesPerWave; j++)
             {
                 yield return new WaitForSeconds(timeBetweenSpawns);

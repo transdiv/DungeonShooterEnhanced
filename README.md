@@ -7,6 +7,7 @@ The "Enhancements" :) are:
 - the game shows a timer with the seconds you are playing. The goal of the game is to finish the two levels the fast you can.
 - The minimun time (best score) is stored in a file (Only works in desktop mode, not the webgl version).
 - The healthbar was incorrectly turning horizontally when the enemy turns left or right.
+- When you die, the wave's number continues with the current one, it's not reset to 1.
 - When you finish a level there is a little 1.5 seconds cooldown before you can shoot.
 - Enemy's Rigidbody 2D is now dynamic (I do that to avoid the enemies don't go through walls).
 - You can now also use the arrow keys apart from WASD keys.

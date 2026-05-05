@@ -22,7 +22,10 @@ public class GameManager : MonoBehaviour
 
     private int enemiesLeft;
     private int currentScene = 0;
+
     private bool allWavesSpawned;
+    public int fromWave = 0; 
+
     public float timePlayed = 0f;
     private bool counting = false;
     private int lastSecond = -1;
@@ -184,6 +187,7 @@ public class GameManager : MonoBehaviour
     public void SetAllWavesSpawned()
     {
         allWavesSpawned = true;
+        fromWave = 0;
     }
 
     public void LoadNextScene()

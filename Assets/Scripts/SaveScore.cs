@@ -10,8 +10,8 @@ public class SaveScore : MonoBehaviour
 
     void Start()
     {
-        bestScoreText.text = "Best Score: " + GameManager.Instance.bestScore;
-        playerScoreText.text = "Player Score: " + (int)GameManager.Instance.timePlayed;
+        bestScoreText.text = "Minimun Time: " + GameManager.Instance.bestScore;
+        playerScoreText.text = "Your Time: " + (int)GameManager.Instance.timePlayed;
         if ((int)GameManager.Instance.timePlayed < GameManager.Instance.bestScore)
             thumbsUpImage.gameObject.SetActive(true);
         GameManager.Instance.SaveScore((int)GameManager.Instance.timePlayed);
