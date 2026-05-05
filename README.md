@@ -14,7 +14,7 @@ The "Enhancements" :) are:
 - You can press Escape key to end the game an go to the main menu.
 - In the menu there is a Help button that showns a little help panel.
 - There is a Exit button in the menu to exit the game.
-- In the executable game you can press F11 to switch fullscreen or windows mode.
+- In the executable game you can press F11 to switch fullscreen or windowed mode.
 
 You can play the webgl version here: https://transdiv.itch.io/dungeon-shooter
 
